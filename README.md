@@ -6,6 +6,7 @@
 
 I’m learning cybersecurity **honestly and publicly** — no fake expertise, no shortcuts.
 
+
 ---
 
 ## 🎯 Purpose of this Repository
@@ -14,6 +15,7 @@ This repo documents my complete learning journey:
 - What I break
 - What I fix
 - What I understand late 😄
+
 
 So recruiters, mentors, and beginners can see **real growth**.
 
