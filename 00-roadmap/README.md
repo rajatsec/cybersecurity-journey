@@ -1,197 +1,222 @@
-🛣️ My 0–90 Days Red Team Learning Roadmap (2026)
+# 🛣️ My 0–90 Days Red Team Learning Roadmap (2026)
 
-    I’m not a cybersecurity expert.
-    I’m a college student learning Red Teaming honestly — step by step.
-    Goal:
-    90 din me expert banna nahi,
-    balki industry-ready beginner banna,
-    jiske paas real proof, clear basics aur sahi mindset ho.
+I’m not a cybersecurity expert.
 
-⚠️ Ground Rules (jo main follow kar raha hoon)
+I’m a college student learning Red Teaming honestly — step by step.
+   
 
-● ❌ Illegal hacking nahi 
-● ❌ Fake “expert” claims nahi 
-● ✅ Pehle seekhna, phir practice  
-● ✅ Jo seekha, usko document karna 
-● ✅ Proof > certificates > followers 
+## 🎯Goal:
 
+90 days me expert banna nahi,
 
-🧠 Phase 0 — Foundation & Setup (Day 0–7)
+balki industry-ready beginner banna,
 
-🎯 Mera focus
+jiske paas real proof, clear basics aur sahi mindset ho.
 
-Pehle system aur dimag dono clear karna.
-Confusion ke saath hacking start karna = time waste.
+---
 
-🔧 Jo setup maine kiya
+# ⚠️ Ground Rules (jo main follow kar raha hoon)
 
-● Linux (Zorin – low RAM friendly)
-● VS Code (GPU disabled)
-● Git + GitHub (sirf terminal se)
-● Proper folder structure for learning
+- ❌ Illegal hacking nahi 
+- ❌ Fake “expert” claims nahi 
+- ✅ Pehle seekhna, phir practice  
+- ✅ Jo seekha, usko document karna 
+- ✅ Proof > certificates > followers 
 
-📚 Jo concepts samjhe
+---
 
-● Red Team vs Blue Team (real difference)
-● Legal scope & ethics (bahut important)
-● Real attacks ka high-level flow (movie hacking nahi)
+# 🧠 Phase 0 — Foundation & Setup (Day 0–7)
 
-📂 Proof (GitHub)
+## 🎯Focus
 
-● 00-roadmap/README.md
+- Pehle system aur dimag dono clear karna.
+- Confusion ke saath hacking start karna = time waste.
 
-● Repo intro + clear disclaimer
-(Learning in public, not an expert)
+## 🔧 Jo setup maine kiya
 
+- Linux (Zorin – low RAM friendly)
+- VS Code (GPU disabled)
+- Git + GitHub (terminal based workflow)
+- Structured learning folders
 
-🧱 Phase 1 — Core Foundations (Day 8–30)
+## 📚Concepts
 
-🎯 Mera focus
+- Red Team vs Blue Team (real difference)
+- Legal scope & ethics 
+- Real attacks ka high-level flow (not movie hacking)
 
-Strong basics banana, jiske bina Red Team possible hi nahi.
+## 📂 Proof (GitHub)
 
-🐧 Linux basics
+- 00-roadmap/README.md
 
-● File system ka use
-● Permissions (read/write/execute)
-● Processes & services
-● Basic networking commands
+- Repo intro + clear disclaimer
+ (Learning in public, not an expert)
 
-🌐 Networking basics
+----
 
-● IP, Port, Protocol — properly samjha
-● TCP vs UDP (kab kya use hota hai)
-● DNS, HTTP/HTTPS ka role
-● Data packets ka flow
+# 🧱 Phase 1 — Core Foundations (Day 8–30)
 
-🌍 Web basics
+## 🎯Focus
 
-● HTML forms kaise kaam karte hain
-● Login system internally kaise work karta hai
-● Cookies aur sessions ka concept
+Strong basics banana-- bina foundation ke Red Team possible hi nahi.
 
-🔐 Security mindset
+## 🐧 Linux basics
 
-● OWASP Top 10 (2026 version)
-● Authentication vs Authorization
-● Attack surface kaise identify hota hai
+- File system ka use
+- Permissions (read/write/execute)
+- Processes & services
+- Basic networking commands
 
-🧪 Practice
+## 🌐 Networking
 
-● TryHackMe ke Linux & Networking paths
+- IP, Port, Protocol
+- TCP vs UDP
+- DNS, HTTP/HTTPS
+- Packet flow basics
 
-📂 Proof (GitHub)
+## 🌍 Web Basics
 
-● 01-linux-basics/
-● 02-networking/
-● Notes + commands + galtiyan jo hui
+- HTML forms
+- Login system workflow
+- Cookies and sessions
 
-🔴 Phase 2 — Red Team Skills (Day 31–60)
+## 🔐 Security Thinking
 
-🎯 Mera focus
+- OWASP Top 10 (2026 version)
+- Authentication vs Authorization
+- Attack surface concept
+
+## 🧪 Practice
+
+- TryHackMe ke Linux & Networking paths
+
+## 📂 Proof (GitHub)
+
+- 01-linux-basics/
+- 02-networking/
+
+Notes + commands + mistakes documented.
+
+# 🔴 Phase 2 — Red Team Skills (Day 31–60)
+
+## 🎯Focus
 
 Attacker mindset develop karna — tool se zyada thinking.
 
-🔍 Reconnaissance
+## 🔍 Recon
 
-● nmap (basic to useful scans)
-● whois
-● dnsenum
-● Subdomain enumeration basics
+- nmap (basic to useful scans)
+- whois
+- dnsenum
+- Subdomain enumeration basics
 
-💥 Web vulnerabilities (logic ke saath)
+## 💥 Web vulnerabilities
 
-● SQL Injection (ratta nahi, logic)
-● XSS (reflected & stored)
-● IDOR
-● File upload issues
+- SQL Injection (logic samajhna)
+- XSS (reflected & stored)
+- IDOR
+- File upload issues
 
-🧰 Tools (basic level)
+## 🧰 Tools (basic level)
 
-● Nmap
-● Burp Suite (proxy + repeater)
-● Gobuster / ffuf
+- Nmap
+- Burp Suite (Proxy + Repeater)
+- Gobuster / ffuf
 
-🧠 Privilege Escalation (intro)
+## 🧠 Privilege Escalation (Intro)
 
-● Privilege escalation kyun important hai
-● Common misconfigurations (sudo, SUID, permissions)
+- Why privesc matters
+- Common misconfigurations (sudo, SUID, permissions)
 
-🧪 Practice
+## 🧪 Practice
 
-● TryHackMe / HTB beginner friendly labs
+- TryHackMe / HTB beginner friendly labs
 
-📂 Proof (GitHub)
+## 📂 Proof (GitHub)
 
-● 04-tools/
-● 05-ctf-writeups/
-● Step-by-step writeups (simple language)
+- 04-tools/
+- 05-ctf-writeups/
 
-🧠 Phase 3 — Job Readiness (Day 61–90)
+Step-by-step writeups in simple language.
 
-🎯 Mera focus
+---
 
-Entry-level Red Team / Security role ke liye ready hona.
+# 🧠 Phase 3 — Job Readiness (Day 61–90)
 
-📑 Reporting (bahut important)
+## 🎯Focus
 
-● Findings kaise likhte hain
-● Impact + fix explanation
-● Screenshots aur clear steps
+Entry-level Red Team / Security role ke liye prepare hona.
 
-🧩 Real workflow samjhna
+## 📑 Reporting (bahut important)
 
-● Recon → Exploit → Escalate → Report
-● Realistic approach (movie hacking nahi)
+- Findings ka structure
+- Impact + fix explanation
+- Screenshots aur clear steps
 
-🧑‍💼 Personal branding
+## 🧩 Real workflow samjhna
+Recon → Exploit → Escalate → Report
 
-● GitHub clean & organized
-● LinkedIn par sirf learning updates
-● Instagram par real-learning aur experiments share karta hoon
-● Honest bio (no fake titles)
+Realistic approach (movie hacking nahi)
 
-💼 Freelancing (optional, ethical)
+---
 
-● Kya services beginner ko nahi sell karni chahiye
-● Kya basic services ethically possible hain
+# 🧑‍💼 Personal branding
 
-📂 Proof (GitHub)
+- GitHub clean & organized
+- LinkedIn par sirf learning updates
+- Honest bio (no fake titles)
+- Instagram par real-time learning share karta hoon
 
-● 06-projects/
-● 08-freelancing/
-● 09-linkedin-github-brand/
+---
 
-🎓 Certification Plan (2026 – Beginner Friendly)
+# 💼 Freelancing (optional & ethical)
 
-    Certificates tabhi jab basics strong ho jaaye.
+- Beginner kya sell nahi kare
+- Basic services ethically kaise offer kare
 
-🟢 Beginner
+## 📂 Proof (GitHub)
+- 06-projects/
+- 07-freelancing/
+- 08-linkedin-github-brand/
 
-● eJPT v2 (priority)
-● Google Cybersecurity (theory)
+---
+
+# 🎓 Certification Plan (2026 – Beginner Friendly)
+
+Certificates tabhi jab basics strong ho jaaye.
+
+## 🟢 Beginner
+
+- eJPT v2 (priority)
+- Google Cybersecurity (theory)
  
-🟡 Intermediate
+## 🟡 Intermediate
 
-● PNPT
-● CRTO (Red Team operations)
+- PNPT
+- CRTO (Red Team operations)
 
-🔴 Advanced (future)
+## 🔴 Advanced (future)
 
-● OSCP
-● OSEP
+- OSCP
+- OSEP
 
-✅ Mere hisaab se “Job-Ready Beginner” ka matlab
+----
 
-● Linux confidently use kar sakta hoon
-● Networking clear hai
-● 10–15 labs solve kiye
-● 5–10 proper CTF writeups
-● Active & clean GitHub repo
-● Honest communication
+# ✅ Mere hisaab se “Job-Ready Beginner” ka matlab
+
+- Linux confidently use kar sakta hoon
+- Networking clear hai
+- 10–15 labs solve kiye
+- 5–10 proper CTF writeups
+- Active & clean GitHub repo
+- Honest communication
+
+ ---
  
-🔚 Final Note
+# 🔚 Final Note
+Main expert nahi hoon.
 
-● Main expert nahi hoon.
-● Main seekh raha hoon — openly, honestly, with proof.
-● Ye repo meri learning journey ka record hai
+Main seekh raha hoon — openly, honestly, with proof.
+
+
+Ye repo meri learning journey ka record hai
